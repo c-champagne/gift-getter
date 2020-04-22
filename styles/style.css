@@ -1,18 +1,34 @@
 body {
-    background-color: rgb(176, 229, 231);
+    /* background-color: rgb(176, 229, 231); */
+    background-image: url(/images/background-2819026_1920.jpg);
 }
+
+/*HOME PAGE CSS */
 #mainSlides {
     display: flex;
     justify-content: center;
 }
 
 .carousel-inner {
-    width: 90vw;
-    height: 90vh;
+    width: 90%;
+    height: auto;
 }
 
-#title {
-    margin-left: 5%;
+.carousel-caption {
+    color: mediumslateblue;
+    background-color: mistyrose;
+    border-radius: 10%;
+}
+
+/* QUIZ CSS */
+#main {
+    display: flex;
+    justify-content: center;
 
 }
 
+#quizDiv {
+    width: 90%;
+    height: auto;
+    border: 5px solid red;
+}
