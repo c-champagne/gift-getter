@@ -31,4 +31,16 @@ body {
     width: 90%;
     height: auto;
     border: 5px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#headline {
+    text-align: center;
+    padding: 100px;
+}
+
+#quizForm {
+    padding-bottom: 100px;
 }
