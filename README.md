@@ -1,5 +1,9 @@
 # gift-getter
 
+## Description
+Users will be able to take a quiz that asks them questions about their gift recipient.  Once the user has completed the quiz, their answers will be used to generate gift recommendations.  Initial plan was to use Amazon's Product Advertising API to bring in product recommendations and allow users to purchase them quickly and easily.
+#### Due to Amazon's Product Advertising API being available only to approved Amazon Associates accounts, recommendations will now come from the Best Buy Developer API.  For obvious reasons, this will limit the types of products that can be recommended.
+
 ## Feature Ideas
 
 ### Home Page
